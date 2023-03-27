@@ -1,1 +1,1 @@
-SELECT * from employee; 
+SELECT * from product; 
