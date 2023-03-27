@@ -1,4 +1,4 @@
-on: [pull_request, push]
+on: [push,pull_request]
 
 jobs:
   # Use separate jobs for different databases, otherwise the failed step will block other following steps
