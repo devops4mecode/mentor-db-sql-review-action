@@ -14,7 +14,7 @@ jobs:
         with:
           override-file-path: ./sql-review-override.yml
           database-type: MYSQL
-          file-pattern: ^migration/mysql/.*\.sql$
+          file-pattern: ^github-action-test/mysql/.*\.sql$
   postgres-sql-review:
     runs-on: ubuntu-latest
     name: Postgres SQL Review
@@ -27,7 +27,7 @@ jobs:
         with:
           override-file-path: ./sql-review-override.yml
           database-type: POSTGRES
-          file-pattern: ^migration/postgres/.*\.sql$
+          file-pattern: ^github-action-test/postgres/.*\.sql$
   tidb-sql-review:
     runs-on: ubuntu-latest
     name: TiDB SQL Review
@@ -40,4 +40,4 @@ jobs:
         with:
           override-file-path: ./sql-review-override.yml
           database-type: TIDB
-          file-pattern: ^migration/tidb/.*\.sql$
+          file-pattern: ^github-action-test/tidb/.*\.sql$
