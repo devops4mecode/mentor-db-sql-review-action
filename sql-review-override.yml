@@ -15,3 +15,5 @@ ruleList:
     level: DISABLED
   - type: statement.select.no-select-all
     level: ERROR
+  - type: statement.where.require
+    level: ERROR
