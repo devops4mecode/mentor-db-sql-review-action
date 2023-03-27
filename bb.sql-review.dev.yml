@@ -20,7 +20,7 @@ ruleList:
       required: true
       maxLength: 64
   - type: statement.select.no-select-all # Doc: https://www.bytebase.com/docs/sql-review/review-rules#statement.select.no-select-all
-    level: WARNING
+    level: ERROR
   - type: statement.where.require # Doc: https://www.bytebase.com/docs/sql-review/review-rules#statement.where.require
     level: WARNING
   - type: statement.where.no-leading-wildcard-like # Doc: https://www.bytebase.com/docs/sql-review/review-rules#statement.where.no-leading-wildcard-like
