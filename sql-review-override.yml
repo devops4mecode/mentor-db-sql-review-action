@@ -13,3 +13,5 @@ ruleList:
       maxLength: 24
   - type: column.required
     level: DISABLED
+  - type: statement.select.no-select-all
+    level: ERROR
